@@ -1,4 +1,4 @@
-import Produto from "../../models/Produto";
+import Produto from "../../models/Product";
 import { AuthContext } from "../../contexts/AuthContext";
 import { useContext } from "react";
 import { IoIosAdd } from "react-icons/io";

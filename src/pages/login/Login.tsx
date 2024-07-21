@@ -3,7 +3,7 @@ import "./Login.css";
 import Logo from "../../assets/logoEditado.png";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../contexts/AuthContext";
-import UsuarioLogin from "../../models/UsuarioLogin";
+import UsuarioLogin from "../../models/UserLogin";
 import { RotatingLines } from "react-loader-spinner";
 
 function Login() {

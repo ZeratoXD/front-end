@@ -1,29 +1,29 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
-import Cadastro from "./pages/cadastro/Cadastro";
+import Cadastro from "./pages/register/Register";
 import { AuthProvider } from "./contexts/AuthContext";
-import ListarCategorias from "./components/categorias/listarCategorias/ListarCategoria";
-import FormularioCategoria from "./components/categorias/formularioCategorias/FormularioCategoria";
-import DeletarCategoria from "./components/categorias/deletarCategorias/DeletarCategorias";
-import ListarProdutos from "./components/produtos/listarProdutos/ListarProdutos";
-import FormularioProduto from "./components/produtos/formularioProdutos/FormularioProduto";
-import DeletarProduto from "./components/produtos/deletarProduto/DeletarProduto";
-import Cart from "./pages/Cart/Carrinho";
+import ListarCategorias from "./components/categories/categoriesList/CategoriesList";
+import FormularioCategoria from "./components/categories/categoriesForms/FormularioCategoria";
+import DeletarCategoria from "./components/categories/categoriesDelete/CategoriesDelete";
+import ListarProdutos from "./components/products/productList/ProductList";
+import FormularioProduto from "./components/products/productForm/ProductForm";
+import DeletarProduto from "./components/products/productDelete/ProductDelete";
+import Cart from "./pages/cart/cart";
 import Navbar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
-import CardProduto1 from "./components/produtos/cardProdutos/CardProduto1";
-import ExibirProduto from "./components/produtos/exibirProduto/ExibirProduto";
-import ModalExibirProduto from "./components/produtos/exibirProduto/ModalExibirProduto";
-import Contato from "./pages/contato/Contato";
-import SobreNos from "./pages/sobrenos/SobreNos";
+import CardProduto1 from "./components/products/cardProducts/CardProducts1";
+import ExibirProduto from "./components/products/productShow/ProductShow";
+import ModalExibirProduto from "./components/products/productShow/ProductShowModal";
+import Contato from "./pages/contactus/Contato";
+import SobreNos from "./pages/aboutus/AboutUs";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <>
-      <AuthProvider>
+      <AuthProvider>''
         <ToastContainer />
         <BrowserRouter>
           <div className="min-h-[80vh]">
